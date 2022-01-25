@@ -1,3 +1,9 @@
+## v0.2.0 (2022-01-25)
+
+### Feat
+
+- turn repo into a template
+
 ## v0.1.3 (2022-01-25)
 
 ### Fix
