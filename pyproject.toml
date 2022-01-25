@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "actions"
-version = "0.1.1"
+version = "0.1.2"
 description = "GitHub Actions testing"
 authors = ["Laurence Rawlings <contact@laurencerawlings.com>"]
 license = "MIT License"
@@ -35,7 +35,7 @@ exclude = '''
 actions = "actions:main"
 
 [tool.commitizen]
-version = "0.1.1"
+version = "0.1.2"
 tag_format = "v$version"
 version_files = [
   "pyproject.toml:version",

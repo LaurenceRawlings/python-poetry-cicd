@@ -1,3 +1,10 @@
+## v0.1.2 (2022-01-25)
+
+### Fix
+
+- **workflow**: run deploy after version is bumped
+- **workflow**: run deploy after version is bumped
+
 ## v0.1.1 (2022-01-25)
 
 ### Fix
