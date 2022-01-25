@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "application"
-version = "0.2.0"
+version = "0.2.1"
 description = "Python Poetry package with basic CI/CD using GitHub actions"
 authors = ["Laurence Rawlings <contact@laurencerawlings.com>"]
 license = "MIT License"
@@ -35,7 +35,7 @@ exclude = '''
 application = "application:main"
 
 [tool.commitizen]
-version = "0.2.0"
+version = "0.2.1"
 tag_format = "v$version"
 version_files = [
   "pyproject.toml:version",

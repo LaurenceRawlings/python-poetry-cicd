@@ -1,3 +1,10 @@
+## v0.2.1 (2022-01-25)
+
+### Fix
+
+- **workflow**: remove fetch depth limit in deploy workflow
+- **workflow**: remove fetch depth limit in deploy workflow
+
 ## v0.2.0 (2022-01-25)
 
 ### Feat
