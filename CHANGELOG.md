@@ -1,3 +1,10 @@
+## v0.1.3 (2022-01-25)
+
+### Fix
+
+- **workflow**: use personal access token to trigger deploy workflow
+- **workflow**: use personal access token to trigger deploy workflow
+
 ## v0.1.2 (2022-01-25)
 
 ### Fix
