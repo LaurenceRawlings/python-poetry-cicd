@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "actions"
+version = "0.1.0"
+description = "GitHub Actions testing"
+authors = ["Laurence Rawlings <contact@laurencerawlings.com>"]
+license = "MIT License"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+black = "^21.12b0"
+pre-commit = "^2.17.0"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.venv
+  | \.env
+  | build
+  | dist
+  | \.mypy_cache
+)\
+'''
+
+[tool.poetry.scripts]
+actions = "actions:main"
+
+[tool.commitizen]
+version = "0.1.0"
+tag_format = "v$version"
+version_files = [
+  "pyproject.toml:version",
+  "actions/__version__.py"
+]
