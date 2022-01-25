@@ -33,6 +33,10 @@ jobs:
           poetry check --no-interaction
           poetry config virtualenvs.in-project true
           poetry install --no-interaction
+      - name: Add version to environment
+        run: |
+          PROJECT_VERSION=$(poetry version --short)
+          echo "PROJECT_VERSION=$PROJECT_VERSION" >> $GITHUB_ENV
       - name: Run tests
         run: |
           poetry run pytest -v
