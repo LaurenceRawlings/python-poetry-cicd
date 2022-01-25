@@ -44,7 +44,8 @@ jobs:
         run: |
           poetry build --no-interaction
       - name: Generate Release Notes
-        run: git log $(git describe HEAD~ --tags --abbrev=0)..HEAD --pretty='format:* %h %s%n  * %an <%ae>' --no-merges >> ".github/release_template.md"
+        run: |
+          git log $(git describe --tags --abbrev=0 HEAD^)..HEAD --pretty='format:* %h %s' --no-merges >> ".github/release_template.md"
       - name: Create Release Draft
         uses: softprops/action-gh-release@v1
         with:
