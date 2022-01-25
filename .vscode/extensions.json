@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "bungcip.better-toml",
+        "vivaxy.vscode-conventional-commits",
+        "editorconfig.editorconfig",
+        "cschleiden.vscode-github-actions",
+        "ms-python.python",
+        "eamodio.gitlens"
+    ]
+}
