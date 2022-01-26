@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "vivaxy.vscode-conventional-commits",
+        "bungcip.better-toml",
+        "editorconfig.editorconfig",
+        "cschleiden.vscode-github-actions",
+        "eamodio.gitlens",
+        "yzhang.markdown-all-in-one",
+        "davidanson.vscode-markdownlint",
+        "ms-python.python"
+    ]
+}
